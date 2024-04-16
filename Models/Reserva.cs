@@ -50,6 +50,7 @@ namespace DesafioProjetoHospedagem.Models
             if (DiasReservados >= 10)
             {
                 decimal desconto = (valor * 10 ) / 100;
+                
                 valor -= desconto;
             }
 
